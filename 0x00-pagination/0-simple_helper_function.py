@@ -4,7 +4,6 @@ Contains definition of index_range helper function
 """
 from typing import Tuple
 
-
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
     Takes 2 integer arguments and returns a tuple of size two
